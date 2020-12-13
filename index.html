@@ -196,7 +196,6 @@
     <section id="reach-out" class="contact">
       <h2 class="section-title secondary-border">Reach Out</h2>
       <div class="contact-info">
-        <!--- aria-hidden and tab index were not included in the tutorial, but were included in the embeded link, are they important? why? -->
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.5302859423728!2d-111.64485518441364!3d33.409416658776934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872bb0389b67e19d%3A0xc55eb8040a0cf286!2s8723%20E%20Myrtle%20St%2C%20Mesa%2C%20AZ%2085208!5e0!3m2!1sen!2sus!4v1607231884072!5m2!1sen!2sus"
           frameborder="0"
@@ -206,7 +205,18 @@
           tabindex="0"
         >
         </iframe>
-
+        <div class="contact-form">
+          <h3>Contact Us</h3>
+          <form>
+             <label for="contact-name">Your Name</label>
+             <input type="text" id="contact-name" placeholder="Your Name" />
+        
+             <label for="contact-message">Message</label>
+             <textarea id="contact-message" placeholder="Message"></textarea>
+        
+             <button type="submit">Submit</button>
+            </form>
+        </div>
         <div>
           <h3>Run buddy</h3>
           <p>
